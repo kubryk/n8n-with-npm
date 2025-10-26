@@ -7,12 +7,12 @@
 - **qrcode** - генерація QR кодів
 - **axios** - HTTP клієнт для API запитів
 
-### Як почати
+### Як почати?
 
 #### 1. Клонування репозиторію
 
 ```bash
-git clone <url-вашого-репозиторію>
+git clone https://github.com/kubryk/n8n-with-npm
 cd n8n-with-npm
 ```
 
@@ -28,13 +28,7 @@ docker-compose build
 docker-compose up -d
 ```
 
-#### 4. Перевірка статусу
-
-```bash
-docker-compose ps
-```
-
-#### 5. Доступ до n8n
+#### 4. Доступ до n8n
 
 Відкрийте браузер: `http://localhost:5678`
 
